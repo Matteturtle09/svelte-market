@@ -1,7 +1,7 @@
 // @ts-nocheck
 import { MongoClient, ServerApiVersion } from 'mongodb';
 
-let uri = "mongodb://0.0.0.0:27017/";
+let uri = "mongodb://svelte-market-mongodb-1:27017/";
 let client = new MongoClient(uri,  {
     serverApi: {
         version: ServerApiVersion.v1,

@@ -7,7 +7,7 @@
   // @ts-ignore
   onMount(async () => {
     let res = await fetch(
-      "https://5173-matteturtle-sveltemarke-nyyzt27vvha.ws-eu108.gitpod.io/api/getProducts"
+      "/api/getProducts"
     );
     products = await res.json();
   });
